@@ -14,6 +14,7 @@ import com.qrcodescanner.utils.Constants;
 
 public class ActSplash extends BaseActivity {
 
+
     String TAG = "ActSplash";
     int TIME = 5000;
 
