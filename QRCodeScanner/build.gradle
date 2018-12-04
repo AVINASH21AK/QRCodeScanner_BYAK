@@ -1,0 +1,44 @@
+buildscript {
+    
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.2.1'
+        
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+
+        maven {
+            url "https://jitpack.io"
+        }
+
+        maven {
+            url "https://maven.google.com"
+        }
+    }
+}
+
+
+ext{
+    compileSdkVersion = 28
+    minSdkVersion = 16
+    targetSdkVersion = 28
+
+    playServicesVersion = '11.4.2'
+    supportV7Version = '28.0.0'
+    recyclerviewV7Version = '28.0.0'
+    cardviewV7Version = '28.0.0'
+    designVersion = '28.0.0'
+}
+
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

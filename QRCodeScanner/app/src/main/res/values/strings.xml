@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">QRCode Scanner</string>
+
+    <!-- Activity Header -->
+    <string name="header_Dashboard">Dashboard</string>
+
+
+    <!--Hint-->
+    <string name="hintName">Name</string>
+    <string name="hintEmail">Email</string>
+    <string name="hintPassword">Password</string>
+    <string name="hintSubmit">Submit</string>
+
+</resources>
